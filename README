@@ -1,0 +1,9 @@
+For using JPA on scala, you have to use DataNucleus enhancer 1.1.3 or later.
+But, Google App Engine for Java SDK 1.2.1 containts DataNucleus enhancer 1.1.1.
+
+you shoud copy sdk directory other name,
+and replace lib/tools/orm/datanucleus-enhancer-1.1.1.jar to datanucleus-enhancer-1.1.3.jar.
+
+and edit sdk.dir in  build.properties to copied sdk directory.
+
+
